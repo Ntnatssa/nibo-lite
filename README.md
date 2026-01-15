@@ -1,59 +1,47 @@
-# NiboLite
+# 🏦 Finance Dashboard - Nibo Lite
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.0.
+Um dashboard de gestão financeira pessoal moderno, desenvolvido para demonstrar práticas avançadas de desenvolvimento front-end. A aplicação permite o controle de entradas e saídas com atualizações reativas e interface limpa.
 
-## Development server
+## 🚀 Funcionalidades
+- **Painel de Controle**: Cards de resumo com Saldo Total, Receitas e Despesas.
+- **Lançamentos reativos**: Formulário para adição de novas transações com atualização instantânea.
+- **Histórico detalhado**: Listagem organizada de movimentações financeiras.
+- **Cálculos em Tempo Real**: Recálculo automático de balanço utilizando reatividade granular.
 
-To start a local development server, run:
+## 🛠️ Tecnologias e Conceitos Aplicados
+- **Angular 18+**: Uso das funcionalidades mais recentes do framework.
+- **Signals (Gerenciamento de Estado)**: Implementação de `signal` e `computed` para uma aplicação ultra-veloz e reativa.
+- **Standalone Components**: Arquitetura moderna que elimina a necessidade de módulos complexos.
+- **TypeScript**: Tipagem estática para maior segurança e manutenção do código.
+- **Clean Code**: Separação clara de responsabilidades entre lógica (TS) e apresentação (HTML/CSS).
 
-```bash
-ng serve
-```
+## 📂 Estrutura do Projeto
+O projeto foi estruturado seguindo padrões de componentização:
+- `SummaryCard`: Componente reutilizável para exibição de métricas.
+- `TransactionForm`: Gerenciamento de entradas de dados e validação simples.
+- `TransactionList`: Exibição dinâmica de dados recebidos via Data Binding.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 💻 Como Rodar o Projeto
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/SEU_USUARIO/nibo-lite.git](https://github.com/SEU_USUARIO/nibo-lite.git)
 
-## Code scaffolding
+2. Instale as dependências:
+   ```bash
+   
+3. npm install
+   ```bash
+   ng serve
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+   ---
 
-```bash
-ng generate component component-name
-```
+### 💡 Dica Extra:
+Ao mudar o README para esta versão, o projeto passa a ser um **exemplo de competência técnica** que serve para qualquer empresa. Se o recrutador específico te perguntar sobre ele, você menciona que usou esse projeto para colocar em prática o que há de mais novo no Angular.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Para atualizar no GitHub, o processo é o mesmo:
+1. Salve o arquivo.
+2. No terminal:
+   ```bash
+   git add README.md
+   git commit -m "docs: improve project description"
+   git push origin main
