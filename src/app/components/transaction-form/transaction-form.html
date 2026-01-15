@@ -1,0 +1,11 @@
+<form (submit)="submit()" class="form-container">
+    <input type="text" name="desc" [(ngModel)]="description" placeholder="Descrição (ex: Aluguel)" required>
+    <input type="number" name="val" [(ngModel)]="value" placeholder="Valor (R$)" required>
+
+    <select name="type" [(ngModel)]="type"]>
+        <option value="income">Receita</option>
+        <option value="expense">Despesa</option>
+    </select>
+
+    <button type="submit" [disabled]="!description || !value">Adicionar</button>
+</form>

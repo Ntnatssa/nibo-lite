@@ -1,0 +1,27 @@
+.table-container {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #666;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
+.income { color: #2ecc71; font-weight: bold; }
+.expense { color: #e74c3c; font-weight: bold; }

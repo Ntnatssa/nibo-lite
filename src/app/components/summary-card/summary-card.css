@@ -1,0 +1,44 @@
+.dashboard-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 1rem;
+}
+
+.header h1 {
+    margin: 0;
+    color: #1a1a1a;
+}
+
+.header .lite {
+    color: #3498db;
+    font-weight: 300;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.transactions-section {
+    color: #444;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.card-table-placeholder {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    border: 2px dashed #ddd;
+    color: #999;
+}
