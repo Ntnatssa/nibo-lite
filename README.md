@@ -28,12 +28,11 @@ O projeto foi estruturado seguindo padrões de componentização:
 
 2. Instale as dependências:
    ```bash
+   npm install
    
-3. npm install
+3. Inicie o servidor:
    ```bash
    ng serve
-
-   ---
 
 ### 💡 Dica Extra:
 Ao mudar o README para esta versão, o projeto passa a ser um **exemplo de competência técnica** que serve para qualquer empresa. Se o recrutador específico te perguntar sobre ele, você menciona que usou esse projeto para colocar em prática o que há de mais novo no Angular.
